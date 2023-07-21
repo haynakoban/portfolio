@@ -72,10 +72,11 @@ const Projects = () => {
 
       <Box mt={6} mb={{ xs: 0, sm: 0, md: 4 }}>
         <Stack
-          spacing={{ xs: 1, sm: 2, md: 4 }}
+          spacing={{ xs: 2, sm: 3, md: 4 }}
           direction='row'
           useFlexGap
           flexWrap='wrap'
+          justifyContent='center'
         >
           {projects.map(({ link, text, year, icon, bgColor }) => {
             return (
