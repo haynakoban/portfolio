@@ -3,6 +3,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const SocialMediaIconButton = styled((props) => {
   const { ...others } = props;
@@ -34,6 +35,11 @@ const socials = [
     text: 'github',
     link: 'https://github.com/haynakoban',
     icon: <GitHubIcon sx={{ width: 24, height: 24 }} />,
+  },
+  {
+    text: 'linkedin',
+    link: 'https://www.linkedin.com/in/ban-cortez/',
+    icon: <LinkedInIcon sx={{ width: 24, height: 24 }} />,
   },
 ];
 
