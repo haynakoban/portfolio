@@ -51,20 +51,22 @@ const Header = () => {
         }}
       >
         <Toolbar disableGutters>
-          <Typography
-            variant='h6'
-            component='div'
-            sx={{
-              flexGrow: 1,
-              fontFamily: 'Poppins',
-              fontWeight: 500,
-              letterSpacing: '1.3px',
-              cursor: 'pointer',
-            }}
-            onClick={() => navigate('portfolio/')}
-          >
-            Bryan
-          </Typography>
+          <Box flexGrow={1}>
+            <Typography
+              variant='h6'
+              component='div'
+              sx={{
+                fontFamily: 'Poppins',
+                fontWeight: 500,
+                letterSpacing: '1.3px',
+                cursor: 'pointer',
+                display: 'inline',
+              }}
+              onClick={() => navigate('portfolio/')}
+            >
+              Bryan
+            </Typography>
+          </Box>
           <IconButton
             sx={{ width: 40, height: 40 }}
             edge='start'
