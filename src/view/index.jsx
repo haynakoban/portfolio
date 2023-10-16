@@ -34,7 +34,7 @@ const Home = () => {
           textAlign: 'center',
         }}
       >
-        ( “Hello” or “How are you?” in English )
+        ( “How are you?” in English )
       </Typography>
 
       <Typography
@@ -48,9 +48,8 @@ const Home = () => {
           textAlign: 'center',
         }}
       >
-        I’m Bryan Cortez, a web developer who is passionate about creating
-        websites which are both functional and effective using ReactJS and
-        Laravel.
+        I’m Bryan Cortez, a web developer who is passionate in creating websites
+        which are both functional and effective using ReactJS and Laravel.
       </Typography>
 
       <Button

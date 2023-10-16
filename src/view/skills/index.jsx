@@ -13,43 +13,42 @@ const skills = [
   {
     logo: HtmlLogo,
     text: 'HTML',
-    exp: ['03', 'Year'],
+    exp: ['03', 'Years'],
   },
   {
     logo: CssLogo,
     text: 'CSS',
-    exp: ['03', 'Year'],
+    exp: ['03', 'Years'],
   },
   {
     logo: JsLogo,
     text: 'JS',
-    exp: ['03', 'Year'],
+    exp: ['03', 'Years'],
   },
-
   {
     logo: MySQLLogo,
     text: 'MySQL',
-    exp: ['03', 'Year'],
+    exp: ['03', 'Years'],
   },
   {
     logo: PHPLogo,
     text: 'PHP',
-    exp: ['02', 'Year'],
+    exp: ['02', 'Years'],
   },
   {
     logo: ReactJsLogo,
     text: 'React',
-    exp: ['02', 'Year'],
+    exp: ['02', 'Years'],
   },
   {
     logo: NodeJsLogo,
     text: 'Node',
-    exp: ['02', 'Year'],
+    exp: ['02', 'Years'],
   },
   {
     logo: LaravelLogo,
     text: 'Laravel',
-    exp: ['06', 'Month'],
+    exp: ['10', 'Months'],
   },
 ];
 
