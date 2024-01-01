@@ -7,6 +7,20 @@ import ReactJsLogo from '../../assets/REACTJS_LOGO.png';
 
 const projects = [
   {
+    link: 'https://github.com/haynakoban/chat-app',
+    text: 'We Chat - ReactJS and Firebase Chat App',
+    year: '2023',
+    icon: ReactJsLogo,
+    bgColor: '#202527',
+  },
+  {
+    link: 'https://github.com/haynakoban/weather-app',
+    text: 'Today Weather - ReactJS Weather App',
+    year: '2023',
+    icon: ReactJsLogo,
+    bgColor: '#202527',
+  },
+  {
     link: 'https://github.com/haynakoban/azure-avenue-online-store',
     text: 'Azure Avenue - Laravel E-Commerce Store',
     year: '2023',
@@ -16,7 +30,7 @@ const projects = [
   {
     link: 'https://github.com/haynakoban/capstone-project',
     text: 'Internship Attendance Monitoring System',
-    year: '2022 - 2023',
+    year: '2023',
     icon: ReactJsLogo,
     bgColor: '#202527',
   },
